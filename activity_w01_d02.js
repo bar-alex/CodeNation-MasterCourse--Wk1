@@ -17,6 +17,7 @@ console.log(
   `Someone's name is "${name}", he/she's ${age} years old and it's favorite color is "${favColor}"`
 );
 
+
 //------------------------------------
 console.log("\n :: activity 02 :: \n");
 
@@ -33,6 +34,7 @@ console.log(
   `And tomorrow I'll have ${breakfast[1]} for breakfast, some ${lunch[1]} for lunch, ${tea[1]} for tea, and a ${dinner[1]} at dinner. Yumm!`
 );
 
+
 //------------------------------------
 console.log("\n :: activity 03 :: \n");
 
@@ -44,6 +46,7 @@ const birthDay = new Date(thisYear, 12, 17);
 let diffDays = Math.round(Math.abs((birthDay - thisDay) / millsPerDay));
 
 console.log(`Days until your birthday ${diffDays}`);
+
 
 //------------------------------------
 console.log("\n :: activity 04 :: \n");
@@ -73,6 +76,7 @@ let winCombinations = [
 if (winCombinations.includes("xxx")) console.log(" you won! ");
 else if (winCombinations.includes("ooo")) console.log(" you loose! ");
 else console.log(" it's a draw! ");
+
 
 //------------------------------------
 console.log("\n :: experiments 1 :: \n");
