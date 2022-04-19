@@ -199,7 +199,7 @@ const coffeeShop = {
     // goes through the list of items and adds it to the order using the menu list provided
     _getOrderFromList( itemsToOrder, internalMenu ){
 
-        const maxWidth = Math.max( ...itemsToOrder.map(x => x.length), 12 )    // max length for the items in the list (and the 'total to pay' text)
+        const maxWidth = Math.max( ...itemsToOrder.map(x => x.length), 12 );    // max length for the items in the list (and the 'total to pay' text)
         let [ completeOrder, totalAmount ] = [ '',  0 ];
 
         for(let it of itemsToOrder){
